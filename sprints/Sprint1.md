@@ -23,7 +23,10 @@
 
 **Back-end**
 - Set up Go, Gorm, Gorilla Mux, and all other needed packages
-- Create a basic database that can insert information
+- Create a basic database that can insert user login information (using Postgres))
+- Look at steps for how to authenticate user information and set up router 
+- User enters information (hardcoded for now) and information will populate in database
+- Experiement with different databases, Postgres and MongoDB, and see which one is more conducive to storing our data
 
 ## Successfully completed
 - A navigation bar was created that featured the app name and buttons
@@ -31,7 +34,13 @@
   -  A static grid of image cards was created for the closet page
   -  Card was clickable and led to a new page on the website
   -  Routing was added to support navigation from one page to the next
+- Database was set up using Gorm and Postgres Dialect package, this is hooked up to DBeaver so we will be able to see what information will be added
+- Hashed Passwords
+- Installed DBeaver
+- Developed/Experimented with MongoDB as well, and made workflow with this as well (we will see which one will be easier to use)
   
 ## Not completed
 -  We were unable to add icons to the nav bar due to time constraints + it is a low priority
 -  We were unable to create a mock database to display the closet items. This was due to time constraints. 
+-  We were unable to connect to the IP address we specified in our code (we are going to office hours for this 2/08)
+   - Once we figure this out, we will be able to hook DBeaver and VSCode
